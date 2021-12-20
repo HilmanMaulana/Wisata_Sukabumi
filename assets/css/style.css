@@ -1,0 +1,60 @@
+/* Start Styling Hero */
+.hero{
+    height: 450px;
+    background-color: #273343;
+    position: relative;
+}
+
+.thumbnail{
+    height: 500px;
+    width: 500px;
+    background-color: salmon;
+    background-image: url(../img/Hero1.jpg);
+    background-size: cover;
+    background-position: -110px 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 40% 0% 10% 10%;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.hero h1{
+    font: 40px/55px verdana, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+}
+
+.desc{
+    height: 80px;
+    width: 400px;
+    position: absolute;
+    top: 210px;
+    left: 92px;
+    overflow: auto;
+    text-align: justify;
+}
+
+
+.capt{
+    height: 80px;
+    width: 650px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    top: 320px;
+    left: 92px;
+    box-sizing: border-box;
+    z-index: 99;
+}
+
+.capt p{
+    font: 30px times, serif;
+    color: #273343;
+}
+/* End Styling Hero */
